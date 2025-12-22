@@ -224,6 +224,7 @@ nav li{
     font-weight: 700;
     line-height: 42px;
     color: var(--color-primario-1000);
+    text-align: center;
 }
 
 .title-section{

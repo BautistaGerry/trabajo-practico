@@ -205,7 +205,6 @@ nav li{
     margin: 0 auto;
 }
 
-
 .section-container{
     display: flex;
     flex-direction: column;
@@ -214,7 +213,6 @@ nav li{
     padding: 1px;
     width: 100%;
 }
-
 
 .title{
     display: flex;
@@ -417,15 +415,15 @@ nav li{
 }
 
 .description-card{
-margin: 0px 0px 70px;
+    margin: 0px 0px 70px;
 
 }
 
 .content-buttons{
-display: flex;
-align-self: flex-start;
-width: 100%;
-max-width: 670px;
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    max-width: 670px;
 
 }
 
@@ -547,179 +545,176 @@ max-width: 670px;
 }
 
 .footer-links{
-display: flex;
-flex-direction: column;
-align-self: flex-start;
-min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    min-width: 200px;
 
 }
 
 /* Media queries */
 
-
-
 @media screen and (max-width: 1006px){
-    .espacio-nave{
-        min-width: 160px;
+.espacio-nave{
+    min-width: 160px;
     }
 
-    .entrar-nave{
-        min-width: 160px;
+.entrar-nave{
+    min-width: 160px;
     }
 
-    .header-right-menu{
-        padding: 0px;
+.header-right-menu{
+    padding: 0px;
     }
 }
 
 
 @media screen and (max-width: 992px) {
-    header{
-        display: flex;
-        background-color: white;
-        width: 100%;
-        height: 72px;
+
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 72px;
     }
 
-    .title{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 36px;
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
     }
 
-    .title-section{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 36px
+.title-section{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px
     }
 
-    .card-container{
-        display: flex;
-        max-width: 943px;
-        width: 100%;
+.card-container{
+    display: flex;
+    max-width: 943px;
+    width: 100%;
     }
 
-    .card-container h2{
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 26px;
-    }
-    
-    .card-container p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-    }
-    
-    .banner-container{
-        width: 100%;
-        max-width: none;
-        margin: 48px auto 0;
-        gap: 32px;
-        padding: 40px 32px;
+.card-container h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
     }
 
-    .header_mobile{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 991px;
-        width: 100%;
+.card-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     }
 
-    .secondary-cards{
-        max-width: 943px;
-        width: 100%;
-        max-height: 320px;
-        height: 100%;
+.banner-container{
+    width: 100%;
+    max-width: none;
+    margin: 48px auto 0;
+    gap: 32px;
+    padding: 40px 32px;
     }
 
-    .secondary-cards-reverse{
-        max-width: 943px;
-        width: 100%;
-        max-height: 320px;
-        height: 100%;
+.header_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 991px;
+    width: 100%;
     }
 
-    .secondary-cards img{
-        max-width: 471px;
-        width: 100%;
-        max-height: 320px;
-        height: 100%
+.secondary-cards{
+    max-width: 943px;
+    width: 100%;
+    max-height: 320px;
+    height: 100%;
     }
 
-    .secondary-cards-reverse img{
-        max-width: 471px;
-        width: 100%;
-        max-height: 320px;
-        height: 100%
+.secondary-cards-reverse{
+    max-width: 943px;
+    width: 100%;
+    max-height: 320px;
+    height: 100%;
     }
 
-    .description-card{
-        margin-bottom:50px;
-        
+.secondary-cards img{
+    max-width: 471px;
+    width: 100%;
+    max-height: 320px;
+    height: 100%
     }
 
-    .p-18px{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: normal ;
+.secondary-cards-reverse img{
+    max-width: 471px;
+    width: 100%;
+    max-height: 320px;
+    height: 100%
     }
 
-    .footer-container{
-        max-width: 991px;
-        width: 100%;
-        padding: 24px;
+.description-card{
+    margin-bottom:50px;
     }
 
-    .footer-section{
-        display: flex;
-        max-width: none;
-        width: 100%;
-        padding: 0px;
-        margin: 0 auto;
-        gap: 0px;
-        justify-content: flex-start;
+.p-18px{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal ;
     }
 
-    .logo-nave-footer{
+.footer-container{
+    max-width: 991px;
+    width: 100%;
+    padding: 24px;
+    }
+
+.footer-section{
+    display: flex;
+    max-width: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+    gap: 0px;
+    justify-content: flex-start;
+    }
+
+.logo-nave-footer{
     width: 46px;
     height: 44px;
     position: absolute;
     top: -50px;
 }
 
-    .footer-links{
-        min-width: 180px;
-        max-width: 300px;
-
+.footer-links{
+    min-width: 180px;
+    max-width: 300px;
     }
 
-    nav{
-        display: none;
+nav{
+    display: none;
     }
 
-    .menu-hamburger-container{
-        display: flex;
-        align-items: center;
-        position: absolute;
-        left: 24px;
-        width: 40px;
-        height: 40px;
+.menu-hamburger-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 24px;
+    width: 40px;
+    height: 40px;
     }
 
-    .button-hamburger{
-        display: flex;
-        border: none;
-        background-color: white;
+.button-hamburger{
+    display: flex;
+    border: none;
+    background-color: white;
     }
 
-    .logo-responsive{
-        display: flex;
-        min-width: 41.81px;
-        min-height: 40px;
-        justify-content: center;
+.logo-responsive{
+    display: flex;
+    min-width: 41.81px;
+    min-height: 40px;
+    justify-content: center;
     }
 
 .logo-container-mobile{
@@ -742,143 +737,139 @@ min-width: 200px;
 
 
 @media screen and (max-width: 768px) {
-    .card-container{
-        display: flex;
-        flex-direction: column;
-        max-width: 719px;
-        width: 100%;
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 719px;
+    width: 100%;
     }
 
-    .card{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 719px;
-        width: 100%;
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 719px;
+    width: 100%;
     }
 
-    .card-text-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-self: flex-start;
-        gap: 15px;
+.card-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    gap: 15px;
     }
 
-    .card-text-content h2{
-        align-self: flex-start;
+.card-text-content h2{
+    align-self: flex-start;
     }
 
-    .title-section{
-        text-align: center;
+.title-section{
+    text-align: center;
     }
 
-    .banner-container{
-        display: flex;
-        flex-direction: column;
-        padding: 32px 40px;
-        margin: 0px 24px;
-        gap: 40px;
-        height: auto;
-        max-height: none;
-        position: relative;
-    }
-    
-    .banner-button{
-        margin-left: 0;
-        display: flex;
-        flex-direction: row;
-        align-self: flex-start;
-        max-width: none;
-        
-        
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 40px;
+    margin: 0px 24px;
+    gap: 40px;
+    height: auto;
+    max-height: none;
+    position: relative;
     }
 
-    .banner-btn-primary{
-        max-width: 586px;
-        
+.banner-button{
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    max-width: none;
     }
 
-    .card-container{
-        max-width: 713px;
-        width: 100%;
-        max-height: 672px;
-        height: 100%;
-        
+.banner-btn-primary{
+    max-width: 586px;
     }
 
-    .secondary-cards img{
-        max-width: 713px;
-        width: 100%;
-        max-height: 488px;
-        height: 100%;
+.card-container{
+    max-width: 713px;
+    width: 100%;
+    max-height: 672px;
+    height: 100%;
     }
 
-    .secondary-cards{
-        display: flex;
-        flex-direction: column-reverse;
-        max-width: 713px;
-        width: 100%;
-        max-height: 726px;
-        height: 100%;
+.secondary-cards img{
+    max-width: 713px;
+    width: 100%;
+    max-height: 488px;
+    height: 100%;
     }
 
-    .secondary-cards-reverse img{
-        max-width: 713px;
-        width: 100%;
-        max-height: 488px;
-        height: 100%;
+.secondary-cards{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 713px;
+    width: 100%;
+    max-height: 726px;
+    height: 100%;
     }
 
-    .img-cards{
-        max-width: 713px;
-        width: 100%;
-        max-height: 488px;
-        height: 100%;
+.secondary-cards-reverse img{
+    max-width: 713px;
+    width: 100%;
+    max-height: 488px;
+    height: 100%;
     }
 
-    .secondary-cards-reverse{
-        display: flex;
-        flex-direction: column-reverse;
-        max-width: 713px;
-        width: 100%;
-        max-height: 726px;
-        height: 100%;
+.img-cards{
+    max-width: 713px;
+    width: 100%;
+    max-height: 488px;
+    height: 100%;
     }
 
-    .content{
-        width: 100%;
-        min-height: 176px;
-        height: 100%;
-        padding:0px;
-        gap: 20px;
+.secondary-cards-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 713px;
+    width: 100%;
+    max-height: 726px;
+    height: 100%;
     }
 
-    .description-card{
-        margin: 0px;
-        gap: 20px;
+.content{
+    width: 100%;
+    min-height: 176px;
+    height: 100%;
+    padding:0px;
+    gap: 20px;
     }
 
-    .button-conoce-mas{
-        
-        max-width: 670px;
+.description-card{
+    margin: 0px;
+    gap: 20px;
     }
 
-    .content-container{
-        display: flex;
-        max-width: none;
-        width: 100%;
-        min-height: 240px;
-        height: 100%;
-        padding: 24px;
+.button-conoce-mas{
+    max-width: 670px;
     }
 
-    .section-separator{
-        width: 100vw;
-        max-width: none;
+.content-container{
+    display: flex;
+    max-width: none;
+    width: 100%;
+    min-height: 240px;
+    height: 100%;
+    padding: 24px;
     }
 
-    .footer-section {
+.section-separator{
+    width: 100vw;
+    max-width: none;
+    }
+
+.footer-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px 24px;
@@ -945,109 +936,101 @@ min-width: 200px;
 
 @media screen and (max-width: 480px){
 
-
-    .content-container{
-        max-width: 431px;
-        width: 100%;
-        
-
-    }
-    .content{
-        max-width: none;
-        width: 100%;
-        padding: 0px;
-        display: flex;  
+.content-container{
+    max-width: 431px;
+    width: 100%;
     }
 
-    .card-container{
-        display: flex;
-        justify-content: center;
-        align-self: flex-start;
+.content{
+    max-width: none;
+    width: 100%;
+    padding: 0px;
+    display: flex;  
+    }
 
-        
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
     }
 
     .card-text-content{
         display: flex;
-        
         max-width: 383px;
         min-width: 130px;
         text-align: start;
     }
 
 
-    
-    .banner-container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        max-height: none;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        height: auto;
-        max-height: 500px;
-        min-height: 300px;
-        width: 100%;
-        margin-top: 40px;
-        padding: 0px;
+
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    height: auto;
+    max-height: 500px;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0px;
 
     }
-    .banner-text{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 303px;
-        height: auto;
-        max-height: 500px;
-        text-align:start;
-        
-        
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 303px;
+    height: auto;
+    max-height: 500px;
+    text-align:start;
     }
 
 
-    .banner-text h2{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 26px;
+.banner-text h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
     }
 
-    .button-conoce-mas{
-        display: flex;
-        justify-content: center;
-        padding: 10px 32px;
+.button-conoce-mas{
+    display: flex;
+    justify-content: center;
+    padding: 10px 32px;
     }
 
-    .banner-btn-primary{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 192px;
-        max-width: 300px;
-        height: 46px;
-        height: 100%;
-        
+.banner-btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 192px;
+    max-width: 300px;
+    height: 46px;
+    height: 100%;
     }
-        .title-section{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 36px; 
-            margin-bottom: 40px;
-        }
-        
-        
+.title-section{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px; 
+    margin-bottom: 40px;
+    }
     }
 
-    @media screen and (max-width: 360px){
-        .banner-btn-primary{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 192px;
-        height: 46px;
-        height: 100%;
+@media screen and (max-width: 360px){
+
+.banner-btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 46px;
+    height: 100%;
     }
 
-    
+
     }
-    
+

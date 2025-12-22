@@ -483,8 +483,7 @@ max-width: 670px;
 .section-separator{
     background-color: white;
     height: 64px;
-    width: 100%;
-    margin: 0 auto;
+    width: 100vw;
 }
 
 /* Footer */
@@ -874,8 +873,8 @@ min-width: 200px;
     }
 
     .section-separator{
-        width: 100%;
-        max-width: 1000px;
+        width: 100vw;
+        max-width: none;
     }
 
     .footer-section {
